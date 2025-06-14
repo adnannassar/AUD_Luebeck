@@ -1,4 +1,4 @@
-package Sort;
+package Sort.FirstLessonInSorting;
 
 public class Printer {
     public static void print(int[] array) {

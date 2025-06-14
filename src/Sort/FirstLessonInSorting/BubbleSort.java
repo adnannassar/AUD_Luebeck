@@ -1,4 +1,4 @@
-package Sort;
+package Sort.FirstLessonInSorting;
 
 import Extras.Swap;
 

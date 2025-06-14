@@ -1,6 +1,4 @@
-package Sort;
-
-import java.util.Scanner;
+package Sort.FirstLessonInSorting;
 
 public class SortTest {
     public static void main(String[] args) {

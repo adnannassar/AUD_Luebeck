@@ -1,4 +1,4 @@
-package Sort;
+package Sort.FirstLessonInSorting;
 
 import Extras.Swap;
 // InsertionSort Sort Komplexität: Best Case: O(n), Mittle Case: O(n^2), Worst Case: O(n^2)
