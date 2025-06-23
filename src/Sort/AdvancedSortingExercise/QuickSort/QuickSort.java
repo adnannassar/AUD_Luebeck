@@ -3,6 +3,11 @@ package Sort.AdvancedSortingExercise.QuickSort;
 import Sort.AdvancedSortingExercise.ArrayTools.ArrayTools;
 
 public class QuickSort {
+
+    public static void quickSort(int[] array) {
+        quickSort(array, 0, array.length - 1);
+    }
+
     public static void quickSort(int[] array, int start, int end) {
         if (start >= end) {
             return;
