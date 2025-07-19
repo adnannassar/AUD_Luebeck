@@ -9,11 +9,11 @@ public class StackAud {
 
     public StackAud(int size) {
         this.array = new int[size];
-        this.last = -1;
+        this.last = 0;
     }
 
     public boolean isEmpty() {
-        return last == -1;
+        return last == 0;
     }
 
     public boolean isFull() {
@@ -24,8 +24,8 @@ public class StackAud {
         if (isFull()) {
             System.out.println("Stack is full");
         } else {
-            last++;
             array[last] = value;
+            last++;
         }
     }
 
@@ -34,9 +34,8 @@ public class StackAud {
             System.out.println("Stack is empty");
             return -1;
         } else {
-            int temp = array[last];
             last--;
-            return temp;
+            return array[last];
         }
     }
 }
